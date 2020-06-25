@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/img/logo.svg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
     <script src="https://kit.fontawesome.com/3c0e9e5d77.js" crossorigin="anonymous"></script>
     <title>Nubank - Finalmente você no controle do seu dinheiro</title>
 </head>
@@ -14,7 +14,7 @@
         <header>
             <img src="/img/logo.svg" alt="Logo Nubank" name="Logo Nubank" title="Logo Nubank">
         </header>
-        <nav>
+        <!-- <nav>
             <ul>
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Conta digital</a></li>
@@ -28,19 +28,48 @@
         <div>
             <a href="#">Login</a>
             <button>Quero ser Nubank</button>
-        </div>
+        </div> -->
     </div>
 
-    <main class="mainRelative">
+    <main class="">
         <div>
-            <img src="/img/1-1.webp" alt="" class="imageBackground">
+            <picture>
+                <source media="(max-width: 320px)"
+                srcset="https://nubank.com.br/_next/static/images/b4a21be171362a52d1ac25ec5c780f05-woman-jumping@0.5x.jpg">
+                <source media="(max-width: 480px)"
+                srcset="https://nubank.com.br/_next/static/images/b2158727d11602fa2d2561cf1e837e84-woman-jumping@0.75x.jpg.webp">
+                <source media="(max-width: 768px)"
+                srcset="https://nubank.com.br/_next/static/images/93e25d8a8851c63ff3194365b3c956a2-woman-jumping@1x.jpg">
+
+                <img src="https://nubank.com.br/_next/static/images/93e25d8a8851c63ff3194365b3c956a2-woman-jumping@1x.jpg">
+            </picture>
         </div>
-        <div>
-            <img src="/img/1-2.webp" alt="" class="imageAbsolute">
-        </div>
+        
+        <section class="container">
+            <div class="textMain">
+                <h1>Ser Nubank é reinventar sua vida financeira</h1>
+                <h2>Conta com rendimento acima da poupança, cartão de crédito sem anuidade e o melhor: resolva tudo pelo app.</h2>
+                <button type="button">Quero ser Nubank</button>
+            </div>
+            <div class="imgMain">
+                <picture>
+                    <source media="(max-width: 320px)"
+                    srcset="https://nubank.com.br/_next/static/images/b303db11a40f80e6eedd365e5f33cc71-nuconta-device@0.5x.png">
+                    <source media="(max-width: 480px)"
+                    srcset="https://nubank.com.br/_next/static/images/b303db11a40f80e6eedd365e5f33cc71-nuconta-device@0.75x.png">
+                    <source media="(max-width: 768px)"
+                    srcset="https://nubank.com.br/_next/static/images/5220afeb6ae4bd0c7117d872c7043c98-nuconta-device@1x.png">
+    
+                    <img src="https://nubank.com.br/images/nuconta-device/nuconta-device@1x.png" alt="">
+                </picture>
+            </div>
+        </section>
+
     </main>
 
-    <div class="containerSections">
+    
+
+    <!-- <div class="containerSections">
         <section class="sectionOne">
             <div>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero sequi illo distinctio, consequatur, sunt ut eaque assumenda pariatur excepturi voluptatum voluptate modi unde eius nemo accusamus soluta reiciendis, ullam illum.
@@ -74,7 +103,7 @@
         <section class="sectionSix">
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rerum ratione assumenda dolor! Dolor libero nisi eligendi error inventore aspernatur aliquid commodi adipisci quo eius doloremque molestiae, eos ducimus animi.</div>
         </section>
-    </div>
+    </div> -->
 
 
 
