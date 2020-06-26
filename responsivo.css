@@ -41,7 +41,9 @@ main {
 
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+
+    margin-bottom: 400px;
 }
 
 .container .textMain {
@@ -63,5 +65,53 @@ h2 {
     flex-direction: column; */
     position: absolute;
     bottom: -16%;
+
+    left: 50%;
+}
+
+/*Sections*/
+
+.sections {
+
+    background-color: #EAEAEA;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 800px;
+    height: 1600px;
+
+}
+.sectionTwo {
+    position: relative;
+    background-color: white;
+}
+.divAbsoluta{
+    position: absolute;
+    top: 120px;
+}
+.imgAbsoluta {
+    position: absolute;
+    bottom: 0;
+}
+.sectionThree {
+    background-color: #7F25B7;
+}
+.sectionFour {
+    background-size: cover;
+    background-image: url(https://nubank.com.br/_next/static/images/2af80081db969ec5f038fea9b4547563-challenge-system-large.jpg.webp);
+    background-position: center center;
+}
+.sectionFive {
+    background-size: cover;
+    background-image: url(https://nubank.com.br/_next/static/images/e9a8f4789288aedbb18fac3337dff7d0-nucommunity@0.5x.jpg.webp);
+    background-position: center;
+}
+.sectionSix {
+    background-size: cover;
+    background-image: url(https://nubank.com.br/_next/static/images/b1d32368f7c53c105ccff2d3d14d5b7a-holding-device-smile@0.5x.jpg.webp);
+    background-position: center;
 }
 
